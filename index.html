@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vegetable Shop POS System | Free Download</title>
+    <meta name="description"
+        content="Vegetable Shop POS System v1.0.0 by Cypex Technologies. Free download and quick start guide." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;800&family=Spline+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ["Unbounded", "ui-sans-serif", "system-ui"],
+                        body: ["Spline Sans", "ui-sans-serif", "system-ui"],
+                    },
+                    colors: {
+                        ink: "#0b0b0f",
+                        mist: "#f3f2ef",
+                        lime: "#a3ff4f",
+                        moss: "#4a6a3f",
+                        clay: "#f5b1a8",
+                        cobalt: "#1e48ff",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-ink text-mist font-body">
+    <div class="bg-noise"></div>
+    <header class="relative">
+        <nav class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-6">
+            <div class="flex items-center gap-3">
+                <div class="h-10 w-10 rounded-2xl bg-lime text-ink grid place-items-center font-display text-lg">VS
+                </div>
+                <div>
+                    <p class="text-sm uppercase tracking-[0.2em] text-mist/70">Cypex Technologies</p>
+                    <p class="font-display text-lg">Vegetable Shop POS</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4 text-sm">
+                <a href="#features" class="opacity-70 hover:opacity-100">Features</a>
+                <a href="#download" class="opacity-70 hover:opacity-100">Download</a>
+                <a href="#setup" class="opacity-70 hover:opacity-100">Quick Start</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="relative mx-auto max-w-6xl px-6 pt-12 pb-16 md:pt-20">
+            <div class="hero-grid">
+                <div class="space-y-6">
+                    <p class="text-sm uppercase tracking-[0.3em] text-lime">Version 1.0.0</p>
+                    <h1 class="font-display text-4xl md:text-6xl leading-tight">
+                        Professional POS built for wholesale vegetable trading.
+                    </h1>
+                    <p class="text-lg text-mist/80 max-w-xl">
+                        Fast sales, clean inventory, and A6 bills in seconds. Built with .NET 8 WPF, SQLite, and
+                        Material Design by Cypex Technologies.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#download" class="btn-primary">Download Free</a>
+                        <button class="btn-outline" id="copySupport">Copy Support Number</button>
+                    </div>
+                    <div class="flex flex-wrap gap-6 text-sm text-mist/70">
+                        <span>Windows 10/11 (64-bit)</span>
+                        <span>2 GB RAM</span>
+                        <span>500 MB disk</span>
+                    </div>
+                </div>
+                <div class="card-stack">
+                    <div class="card top">
+                        <p class="text-xs uppercase tracking-[0.2em] text-mist/60">Sales Flow</p>
+                        <h3 class="font-display text-2xl">Fast checkout in 3 taps.</h3>
+                        <p class="text-sm text-mist/70">Customer select, item add, save & print.</p>
+                    </div>
+                    <div class="card mid">
+                        <p class="text-xs uppercase tracking-[0.2em] text-mist/60">Day Close</p>
+                        <h3 class="font-display text-2xl">Close the day with confidence.</h3>
+                        <p class="text-sm text-mist/70">Balance review and adjustments built-in.</p>
+                    </div>
+                    <div class="card base">
+                        <p class="text-xs uppercase tracking-[0.2em] text-mist/60">A6 Bills</p>
+                        <h3 class="font-display text-2xl">Print crisp 105×148 mm bills.</h3>
+                        <p class="text-sm text-mist/70">Multi-page support for busy markets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="mx-auto max-w-6xl px-6 py-12">
+            <div class="section-head">
+                <h2 class="font-display text-3xl md:text-4xl">Everything your shop needs, today.</h2>
+                <p class="text-mist/70 max-w-2xl">Sales, purchases, day management, and inventory protection in one
+                    simple app.</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-3">
+                <article class="feature-card">
+                    <h3 class="font-display text-xl">Sales (POS)</h3>
+                    <p class="text-sm text-mist/70">Fast checkout with customer selection and instant bill printing.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="font-display text-xl">Purchases</h3>
+                    <p class="text-sm text-mist/70">Record stock from suppliers with bag quantities.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="font-display text-xl">Day Management</h3>
+                    <p class="text-sm text-mist/70">Open and close days with balance reconciliation.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="font-display text-xl">Customers & Suppliers</h3>
+                    <p class="text-sm text-mist/70">Centralize business contacts and track phone numbers.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="font-display text-xl">Stock Alerts</h3>
+                    <p class="text-sm text-mist/70">Over-selling protection with optional override.</p>
+                </article>
+                <article class="feature-card">
+                    <h3 class="font-display text-xl">Reports</h3>
+                    <p class="text-sm text-mist/70">Daily sales, purchases, and profit analysis.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="download" class="mx-auto max-w-6xl px-6 py-12">
+            <div class="download-panel">
+                <div>
+                    <p class="text-sm uppercase tracking-[0.3em] text-lime">Download</p>
+                    <h2 class="font-display text-3xl md:text-4xl">VegetableShopPOS v1.0.0</h2>
+                    <p class="text-mist/70 max-w-xl">
+                        Ready-to-install setup for Windows. Free download hosted on GitHub Releases.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <a class="btn-primary" href="https://example.com/VegetableShopPOS_Setup_v1.0.0.exe" target="_blank"
+                        rel="noopener">Download EXE</a>
+                    <button class="btn-outline" id="copyDownload">Copy Download Link</button>
+                    <p class="text-xs text-mist/50">Replace the URL with your GitHub release link.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="setup" class="mx-auto max-w-6xl px-6 py-12">
+            <div class="grid gap-10 md:grid-cols-2">
+                <div class="space-y-6">
+                    <h2 class="font-display text-3xl md:text-4xl">Quick start in 5 minutes.</h2>
+                    <div class="step">
+                        <h3 class="font-display text-xl">First time setup</h3>
+                        <ol class="list-decimal list-inside text-sm text-mist/70 space-y-2">
+                            <li>Settings: enter shop name, address, phone numbers.</li>
+                            <li>Vegetables: add products (Tomato, Potato, etc.).</li>
+                            <li>Suppliers: add suppliers with phone numbers.</li>
+                            <li>Customers: walk-in customer already exists.</li>
+                            <li>Day Open: open today to start.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="step">
+                        <h3 class="font-display text-xl">Daily operations</h3>
+                        <div class="code-block">
+                            <p>Morning</p>
+                            <code>Day Open → Select Today → Open Day</code>
+                        </div>
+                        <div class="code-block">
+                            <p>Purchase stock</p>
+                            <code>Purchases → Select Supplier → Select Item → Bags: "10+20+30" → Add → Save</code>
+                        </div>
+                        <div class="code-block">
+                            <p>Make sale</p>
+                            <code>Sales → Select Customer → Select Item → Bags: "10+20" → Add → Save &amp; Print</code>
+                        </div>
+                        <div class="code-block">
+                            <p>End of day</p>
+                            <code>Day Close → Review Balance → Adjust if needed → Close Day</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mx-auto max-w-6xl px-6 py-12">
+            <div class="grid gap-10 md:grid-cols-2">
+                <div class="space-y-4">
+                    <h2 class="font-display text-3xl md:text-4xl">Bag quantities made simple.</h2>
+                    <p class="text-mist/70">Use plus-separated bag weights like <strong>10+60+50</strong> to split bill
+                        lines.</p>
+                    <div class="code-block">
+                        <code>Beans | 1 | 10.00 | 50.00 | 500.00</code>
+                        <code>Beans | 1 | 60.00 | 50.00 | 3,000.00</code>
+                        <code>Beans | 1 | 50.00 | 50.00 | 2,500.00</code>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <h2 class="font-display text-3xl md:text-4xl">Support &amp; troubleshooting.</h2>
+                    <div class="feature-card">
+                        <p class="text-sm uppercase tracking-[0.2em] text-mist/60">Support</p>
+                        <h3 class="font-display text-xl">Cypex Technologies</h3>
+                        <p class="text-sm text-mist/70">Phone: 0710803028</p>
+                        <p class="text-sm text-mist/70">Business Hours: Mon-Fri, 9 AM - 6 PM</p>
+                    </div>
+                    <div class="feature-card">
+                        <p class="text-sm uppercase tracking-[0.2em] text-mist/60">Troubleshooting</p>
+                        <ul class="text-sm text-mist/70 space-y-2">
+                            <li>Day is not open: open today from Day Open.</li>
+                            <li>Over-selling warning: record purchases or override.</li>
+                            <li>Bill not printing: verify printer name in Settings.</li>
+                            <li>Database location: %AppData%\VegWholesalePOS\vegshop.db</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-mist/10">
+        <div class="mx-auto max-w-6xl px-6 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+                <p class="font-display">Vegetable Shop POS System</p>
+                <p class="text-sm text-mist/60">Version 1.0.0 | Developed by Cypex Technologies</p>
+            </div>
+            <div class="text-sm text-mist/60">
+                <p>Contact: 0710803028</p>
+                <p>License: Proprietary</p>
+                <p>Copyright 2024 Cypex Technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
